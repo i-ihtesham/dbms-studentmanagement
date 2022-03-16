@@ -11,4 +11,6 @@ urlpatterns = [
     path('list/', views.DeclareResultListView.as_view(), name='result_list'),
     path('declare/validate/', views.validate_data, name='validate_data'),
     path('declare/setup/', views.setup_update_view, name='setup'),
+    path('pdf/', views.venue_pdf, name='setup1'),
+     path('pdf1/', views.venue_pdf1, name='setup2'),
 ]
